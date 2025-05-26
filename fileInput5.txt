@@ -1,0 +1,11 @@
+M by N: 4 4 
+turns: 400
+robots: 8
+BlueThunder BT01_Beta 3 3
+BlueThunder BT02_Beta 1 0
+BlueThunder BT03_Beta 0 2
+BlueThunder BT04_Beta 3 0
+Madbot MB01_Kidd 1 3
+Madbot MB02_Kidd 2 1
+Madbot MB03_Kidd 3 2
+Madbot MB04_Kidd 0 0

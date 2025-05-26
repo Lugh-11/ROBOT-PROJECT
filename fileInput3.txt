@@ -1,0 +1,9 @@
+M by N: 10 9
+turns: 90
+robots: 6
+LaserBot LB01_Zapp 6 3
+BomberRobot BR01_Boom 4 1
+JumpingRobot JR01_Yoink 9 3
+LaserBot LB02_Zapp 8 1
+BomberRobot BR02_Boom 1 8
+JumpingRobot JR02_Yoink 1 3
