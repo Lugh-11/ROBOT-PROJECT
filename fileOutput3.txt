@@ -1,4 +1,5 @@
-        0   1   2   3   4   5   6   7   8
+Display Battlefield:
+       0    1    2    3    4    5    6    7    8
     +----+----+----+----+----+----+----+----+----+
   0 |    |    |    |    |    |    |    |    |    |
     +----+----+----+----+----+----+----+----+----+
@@ -19,4 +20,4322 @@
   8 |    |LB02|    |    |    |    |    |    |    |
     +----+----+----+----+----+----+----+----+----+
   9 |    |    |    |JR01|    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+Robot LB01 (LaserBot) looks at (6,3):
+(5,2): EMPTY (5,3): EMPTY (5,4): EMPTY 
+(6,2): EMPTY (6,3): SELF (6,4): EMPTY 
+(7,2): EMPTY (7,3): EMPTY (7,4): EMPTY 
+Robot LB01 fires at (7,5) but no robot is there.
+Robot BR01 (BomberRobot) looks at (4,1):
+(3,0): EMPTY (3,1): EMPTY (3,2): EMPTY 
+(4,0): EMPTY (4,1): SELF (4,2): EMPTY 
+(5,0): EMPTY (5,1): EMPTY (5,2): EMPTY 
+Robot BR01 fires at (5,3) but no robot is there.
+Robot JR01 (JumpingRobot) looks at (9,3):
+(8,2): EMPTY (8,3): EMPTY (8,4): EMPTY 
+(9,2): EMPTY (9,3): SELF (9,4): EMPTY 
+(10,2): OUT (10,3): OUT (10,4): OUT 
+Robot JR01 fires at (9,4) but no robot is there.
+Robot LB02 (LaserBot) looks at (8,1):
+(7,0): EMPTY (7,1): EMPTY (7,2): EMPTY 
+(8,0): EMPTY (8,1): SELF (8,2): EMPTY 
+(9,0): EMPTY (9,1): EMPTY (9,2): EMPTY 
+Robot LB02 fires at (9,3) and destroys JR01!
+Robot JR02 (JumpingRobot) looks at (1,3):
+(0,2): EMPTY (0,3): EMPTY (0,4): EMPTY 
+(1,2): EMPTY (1,3): SELF (1,4): EMPTY 
+(2,2): EMPTY (2,3): EMPTY (2,4): EMPTY 
+Robot JR02 fires at (2,5) but no robot is there.
+Turn 1:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |JR02|    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |BR01|    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |LB01|    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |LB02|    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+Robot LB01 (LaserBot) looks at (7,4):
+(6,3): EMPTY (6,4): EMPTY (6,5): EMPTY 
+(7,3): EMPTY (7,4): SELF (7,5): EMPTY 
+(8,3): EMPTY (8,4): EMPTY (8,5): EMPTY 
+Robot LB01 fires at (8,6) but no robot is there.
+Robot BR01 (BomberRobot) looks at (5,2):
+(4,1): EMPTY (4,2): EMPTY (4,3): EMPTY 
+(5,1): EMPTY (5,2): SELF (5,3): EMPTY 
+(6,1): EMPTY (6,2): EMPTY (6,3): EMPTY 
+Robot BR01 fires at (6,4) but no robot is there.
+Robot LB02 (LaserBot) looks at (9,2):
+(8,1): EMPTY (8,2): EMPTY (8,3): EMPTY 
+(9,1): EMPTY (9,2): SELF (9,3): EMPTY 
+(10,1): OUT (10,2): OUT (10,3): OUT 
+Robot LB02 fires at (6,7) but no robot is there.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (2,4):
+(1,3): EMPTY (1,4): EMPTY (1,5): EMPTY 
+(2,3): EMPTY (2,4): SELF (2,5): EMPTY 
+(3,3): EMPTY (3,4): EMPTY (3,5): EMPTY 
+Robot JR02 fires at (3,6) but no robot is there.
+Turn 2:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |JR02|    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |BR01|    |    |LB02|    |    |
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |LB01|    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+Robot LB01 (LaserBot) looks at (8,5):
+(7,4): EMPTY (7,5): EMPTY (7,6): EMPTY 
+(8,4): EMPTY (8,5): SELF (8,6): EMPTY 
+(9,4): EMPTY (9,5): EMPTY (9,6): EMPTY 
+Robot LB01 fires at (9,7) but no robot is there.
+Robot BR01 (BomberRobot) looks at (6,3):
+(5,2): EMPTY (5,3): EMPTY (5,4): EMPTY 
+(6,2): EMPTY (6,3): SELF (6,4): EMPTY 
+(7,2): EMPTY (7,3): EMPTY (7,4): EMPTY 
+Robot BR01 fires at (7,5) but no robot is there.
+Robot LB02 (LaserBot) looks at (6,6):
+(5,5): EMPTY (5,6): EMPTY (5,7): EMPTY 
+(6,5): EMPTY (6,6): SELF (6,7): EMPTY 
+(7,5): EMPTY (7,6): EMPTY (7,7): EMPTY 
+Robot LB02 fires at (6,3) but no robot is there.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (3,5):
+(2,4): EMPTY (2,5): EMPTY (2,6): EMPTY 
+(3,4): EMPTY (3,5): SELF (3,6): EMPTY 
+(4,4): EMPTY (4,5): EMPTY (4,6): EMPTY 
+Robot JR02 fires at (4,7) but no robot is there.
+Turn 3:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |JR02|    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |LB02|    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |BR01|    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |LB01|    |    |
+    +----+----+----+----+----+----+----+----+----+
+Robot LB01 (LaserBot) looks at (9,6):
+(8,5): EMPTY (8,6): EMPTY (8,7): EMPTY 
+(9,5): EMPTY (9,6): SELF (9,7): EMPTY 
+(10,5): OUT (10,6): OUT (10,7): OUT 
+Robot LB01 fires at (9,7) but no robot is there.
+Robot BR01 (BomberRobot) looks at (7,4):
+(6,3): EMPTY (6,4): EMPTY (6,5): EMPTY 
+(7,3): EMPTY (7,4): SELF (7,5): EMPTY 
+(8,3): EMPTY (8,4): EMPTY (8,5): EMPTY 
+Robot BR01 fires at (8,6) but no robot is there.
+Robot LB02 (LaserBot) looks at (6,2):
+(5,1): EMPTY (5,2): EMPTY (5,3): EMPTY 
+(6,1): EMPTY (6,2): SELF (6,3): EMPTY 
+(7,1): EMPTY (7,2): EMPTY (7,3): EMPTY 
+Robot LB02 fires at (0,6) but no robot is there.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (4,6):
+(3,5): EMPTY (3,6): EMPTY (3,7): EMPTY 
+(4,5): EMPTY (4,6): SELF (4,7): EMPTY 
+(5,5): EMPTY (5,6): EMPTY (5,7): EMPTY 
+Robot JR02 fires at (5,8) but no robot is there.
+Turn 4:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |LB02|    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |JR02|    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |BR01|    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |LB01|    |    |
+    +----+----+----+----+----+----+----+----+----+
+Robot LB01 (LaserBot) looks at (9,6):
+(8,5): ENEMY(BR01) (8,6): EMPTY (8,7): EMPTY 
+(9,5): EMPTY (9,6): SELF (9,7): EMPTY 
+(10,5): OUT (10,6): OUT (10,7): OUT 
+Robot LB01 fires at (9,7) but no robot is there.
+Robot BR01 (BomberRobot) looks at (8,5):
+(7,4): EMPTY (7,5): EMPTY (7,6): EMPTY 
+(8,4): EMPTY (8,5): SELF (8,6): EMPTY 
+(9,4): EMPTY (9,5): EMPTY (9,6): ENEMY(LB01) 
+Robot BR01 fires at (9,7) but no robot is there.
+Robot LB02 (LaserBot) looks at (0,5):
+(-1,4): OUT (-1,5): OUT (-1,6): OUT 
+(0,4): EMPTY (0,5): SELF (0,6): EMPTY 
+(1,4): EMPTY (1,5): EMPTY (1,6): EMPTY 
+Robot LB02 fires at (1,7) but no robot is there.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (5,7):
+(4,6): EMPTY (4,7): EMPTY (4,8): EMPTY 
+(5,6): EMPTY (5,7): SELF (5,8): EMPTY 
+(6,6): EMPTY (6,7): EMPTY (6,8): EMPTY 
+Robot JR02 fires out of bounds.
+Turn 5:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |LB02|    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |JR02|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |BR01|    |    |
+    +----+----+----+----+----+----+----+----+----+
+Robot LB01 (LaserBot) looks at (9,6):
+(8,5): EMPTY (8,6): EMPTY (8,7): EMPTY 
+(9,5): EMPTY (9,6): ENEMY(BR01) (9,7): EMPTY 
+(10,5): OUT (10,6): OUT (10,7): OUT 
+Robot LB01 fires at (9,7) but no robot is there.
+Robot BR01 (BomberRobot) looks at (9,6):
+(8,5): EMPTY (8,6): EMPTY (8,7): EMPTY 
+(9,5): EMPTY (9,6): SELF (9,7): EMPTY 
+(10,5): OUT (10,6): OUT (10,7): OUT 
+Robot BR01 fires at (9,7) but no robot is there.
+Robot LB02 (LaserBot) looks at (1,6):
+(0,5): EMPTY (0,6): EMPTY (0,7): EMPTY 
+(1,5): EMPTY (1,6): SELF (1,7): EMPTY 
+(2,5): EMPTY (2,6): EMPTY (2,7): EMPTY 
+Robot LB02 fires at (2,8) but no robot is there.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Turn 6:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |LB02|    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |JR02|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |BR01|    |    |
+    +----+----+----+----+----+----+----+----+----+
+Robot LB01 (LaserBot) looks at (9,6):
+(8,5): EMPTY (8,6): EMPTY (8,7): EMPTY 
+(9,5): EMPTY (9,6): ENEMY(BR01) (9,7): EMPTY 
+(10,5): OUT (10,6): OUT (10,7): OUT 
+Robot LB01 fires at (9,7) but no robot is there.
+Robot BR01 (BomberRobot) looks at (9,6):
+(8,5): EMPTY (8,6): EMPTY (8,7): EMPTY 
+(9,5): EMPTY (9,6): SELF (9,7): EMPTY 
+(10,5): OUT (10,6): OUT (10,7): OUT 
+Robot BR01 fires at (9,7) but no robot is there.
+Robot LB02 (LaserBot) looks at (2,7):
+(1,6): EMPTY (1,7): EMPTY (1,8): ENEMY(BR02) 
+(2,6): EMPTY (2,7): SELF (2,8): EMPTY 
+(3,6): EMPTY (3,7): EMPTY (3,8): EMPTY 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): ENEMY(LB02) (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Turn 7:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |JR02|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |BR01|    |    |
+    +----+----+----+----+----+----+----+----+----+
+Robot LB01 (LaserBot) looks at (9,6):
+(8,5): EMPTY (8,6): EMPTY (8,7): EMPTY 
+(9,5): EMPTY (9,6): ENEMY(BR01) (9,7): EMPTY 
+(10,5): OUT (10,6): OUT (10,7): OUT 
+Robot LB01 fires at (9,7) but no robot is there.
+Robot BR01 (BomberRobot) looks at (9,6):
+(8,5): EMPTY (8,6): EMPTY (8,7): EMPTY 
+(9,5): EMPTY (9,6): SELF (9,7): EMPTY 
+(10,5): OUT (10,6): OUT (10,7): OUT 
+Robot BR01 fires at (9,7) but no robot is there.
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Turn 8:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |JR02|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |BR01|    |    |
+    +----+----+----+----+----+----+----+----+----+
+Robot LB01 (LaserBot) looks at (9,6):
+(8,5): EMPTY (8,6): EMPTY (8,7): EMPTY 
+(9,5): EMPTY (9,6): ENEMY(BR01) (9,7): EMPTY 
+(10,5): OUT (10,6): OUT (10,7): OUT 
+Robot LB01 fires at (9,7) but no robot is there.
+Robot BR01 (BomberRobot) looks at (9,6):
+(8,5): EMPTY (8,6): EMPTY (8,7): EMPTY 
+(9,5): EMPTY (9,6): SELF (9,7): EMPTY 
+(10,5): OUT (10,6): OUT (10,7): OUT 
+Robot BR01 fires at (9,7) but no robot is there.
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Turn 9:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |JR02|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |BR01|    |    |
+    +----+----+----+----+----+----+----+----+----+
+Robot LB01 (LaserBot) looks at (9,6):
+(8,5): EMPTY (8,6): EMPTY (8,7): EMPTY 
+(9,5): EMPTY (9,6): ENEMY(BR01) (9,7): EMPTY 
+(10,5): OUT (10,6): OUT (10,7): OUT 
+Robot LB01 fires at (9,7) but no robot is there.
+Robot BR01 (BomberRobot) looks at (9,6):
+(8,5): EMPTY (8,6): EMPTY (8,7): EMPTY 
+(9,5): EMPTY (9,6): SELF (9,7): EMPTY 
+(10,5): OUT (10,6): OUT (10,7): OUT 
+Robot BR01 fires at (9,7) but no robot is there.
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Turn 10:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |JR02|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |BR01|    |    |
+    +----+----+----+----+----+----+----+----+----+
+Robot LB01 (LaserBot) looks at (9,6):
+(8,5): EMPTY (8,6): EMPTY (8,7): EMPTY 
+(9,5): EMPTY (9,6): ENEMY(BR01) (9,7): EMPTY 
+(10,5): OUT (10,6): OUT (10,7): OUT 
+Robot LB01 is out of shells and self-destructs!
+Robot BR01 (BomberRobot) looks at (9,6):
+(8,5): EMPTY (8,6): EMPTY (8,7): EMPTY 
+(9,5): EMPTY (9,6): SELF (9,7): EMPTY 
+(10,5): OUT (10,6): OUT (10,7): OUT 
+Robot BR01 is out of shells and self-destructs!
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Turn 11:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |JR02|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+Robot LB01 re-enters the battlefield at (1,3) with 2 lives left.
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (1,3):
+(0,2): EMPTY (0,3): EMPTY (0,4): EMPTY 
+(1,2): EMPTY (1,3): SELF (1,4): EMPTY 
+(2,2): EMPTY (2,3): EMPTY (2,4): EMPTY 
+Robot LB01 fires at (2,5) but no robot is there.
+Turn 12:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |LB01|    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |JR02|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+Robot BR01 re-enters the battlefield at (9,5) with 2 lives left.
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (2,4):
+(1,3): EMPTY (1,4): EMPTY (1,5): EMPTY 
+(2,3): EMPTY (2,4): SELF (2,5): EMPTY 
+(3,3): EMPTY (3,4): EMPTY (3,5): EMPTY 
+Robot LB01 fires at (3,6) but no robot is there.
+Robot BR01 (GenericRobot) looks at (9,5):
+(8,4): EMPTY (8,5): EMPTY (8,6): EMPTY 
+(9,4): EMPTY (9,5): SELF (9,6): EMPTY 
+(10,4): OUT (10,5): OUT (10,6): OUT 
+Robot BR01 fires at (9,6) but no robot is there.
+Turn 13:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |LB01|    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |JR02|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |BR01|    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (3,5):
+(2,4): EMPTY (2,5): EMPTY (2,6): EMPTY 
+(3,4): EMPTY (3,5): SELF (3,6): EMPTY 
+(4,4): EMPTY (4,5): EMPTY (4,6): EMPTY 
+Robot LB01 fires at (4,7) but no robot is there.
+Robot BR01 (GenericRobot) looks at (9,5):
+(8,4): EMPTY (8,5): EMPTY (8,6): EMPTY 
+(9,4): EMPTY (9,5): SELF (9,6): EMPTY 
+(10,4): OUT (10,5): OUT (10,6): OUT 
+Robot BR01 fires at (9,6) but no robot is there.
+Turn 14:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |LB01|    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |JR02|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |BR01|    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (4,6):
+(3,5): EMPTY (3,6): EMPTY (3,7): EMPTY 
+(4,5): EMPTY (4,6): SELF (4,7): EMPTY 
+(5,5): EMPTY (5,6): EMPTY (5,7): EMPTY 
+Robot LB01 fires at (5,8) but no robot is there.
+Robot BR01 (GenericRobot) looks at (9,5):
+(8,4): EMPTY (8,5): EMPTY (8,6): EMPTY 
+(9,4): EMPTY (9,5): SELF (9,6): EMPTY 
+(10,4): OUT (10,5): OUT (10,6): OUT 
+Robot BR01 fires at (9,6) but no robot is there.
+Turn 15:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |LB01|    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |JR02|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |BR01|    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): ENEMY(LB01) (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (5,7):
+(4,6): EMPTY (4,7): EMPTY (4,8): EMPTY 
+(5,6): EMPTY (5,7): SELF (5,8): EMPTY 
+(6,6): EMPTY (6,7): EMPTY (6,8): ENEMY(JR02) 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,5):
+(8,4): EMPTY (8,5): EMPTY (8,6): EMPTY 
+(9,4): EMPTY (9,5): SELF (9,6): EMPTY 
+(10,4): OUT (10,5): OUT (10,6): OUT 
+Robot BR01 fires at (9,6) but no robot is there.
+Turn 16:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |BR01|    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,5):
+(8,4): EMPTY (8,5): EMPTY (8,6): EMPTY 
+(9,4): EMPTY (9,5): SELF (9,6): EMPTY 
+(10,4): OUT (10,5): OUT (10,6): OUT 
+Robot BR01 fires at (9,6) but no robot is there.
+Turn 17:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |BR01|    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,5):
+(8,4): EMPTY (8,5): EMPTY (8,6): EMPTY 
+(9,4): EMPTY (9,5): SELF (9,6): EMPTY 
+(10,4): OUT (10,5): OUT (10,6): OUT 
+Robot BR01 fires at (9,6) but no robot is there.
+Turn 18:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |BR01|    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,5):
+(8,4): EMPTY (8,5): EMPTY (8,6): EMPTY 
+(9,4): EMPTY (9,5): SELF (9,6): EMPTY 
+(10,4): OUT (10,5): OUT (10,6): OUT 
+Robot BR01 fires at (9,6) but no robot is there.
+Turn 19:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |BR01|    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,5):
+(8,4): EMPTY (8,5): EMPTY (8,6): EMPTY 
+(9,4): EMPTY (9,5): SELF (9,6): EMPTY 
+(10,4): OUT (10,5): OUT (10,6): OUT 
+Robot BR01 fires at (9,6) but no robot is there.
+Turn 20:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |BR01|    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,5):
+(8,4): EMPTY (8,5): EMPTY (8,6): EMPTY 
+(9,4): EMPTY (9,5): SELF (9,6): EMPTY 
+(10,4): OUT (10,5): OUT (10,6): OUT 
+Robot BR01 fires at (9,6) but no robot is there.
+Turn 21:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |BR01|    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,5):
+(8,4): EMPTY (8,5): EMPTY (8,6): EMPTY 
+(9,4): EMPTY (9,5): SELF (9,6): EMPTY 
+(10,4): OUT (10,5): OUT (10,6): OUT 
+Robot BR01 fires at (9,6) but no robot is there.
+Turn 22:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |BR01|    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,5):
+(8,4): EMPTY (8,5): EMPTY (8,6): EMPTY 
+(9,4): EMPTY (9,5): SELF (9,6): EMPTY 
+(10,4): OUT (10,5): OUT (10,6): OUT 
+Robot BR01 is out of shells and self-destructs!
+Turn 23:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+Robot BR01 re-enters the battlefield at (9,8) with 1 lives left.
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 24:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 25:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 26:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 27:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 28:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 29:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 30:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 31:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 32:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 33:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 34:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 35:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 36:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 37:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 38:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 39:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 40:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 41:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 42:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 43:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 44:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 45:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 46:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 47:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 48:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 49:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 50:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 51:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 52:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 53:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 54:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 55:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 56:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 57:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 58:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 59:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 60:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 61:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 62:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 63:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 64:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 65:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 66:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 67:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 68:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 69:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 70:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 71:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 72:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 73:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 74:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 75:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 76:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 77:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 78:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 79:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 80:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 81:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 82:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 83:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 84:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 85:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 86:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 87:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 88:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 89:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
+    +----+----+----+----+----+----+----+----+----+
+Robot LB02 (LaserBot) looks at (3,8):
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+(3,7): EMPTY (3,8): SELF (3,9): OUT 
+(4,7): EMPTY (4,8): EMPTY (4,9): OUT 
+Robot LB02 fires out of bounds.
+Robot BR02 (BomberRobot) looks at (1,8):
+(0,7): EMPTY (0,8): EMPTY (0,9): OUT 
+(1,7): EMPTY (1,8): SELF (1,9): OUT 
+(2,7): EMPTY (2,8): EMPTY (2,9): OUT 
+Robot BR02 fires out of bounds.
+Robot JR02 (JumpingRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): ENEMY(LB01) (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot JR02 fires out of bounds.
+Robot LB01 (GenericRobot) looks at (6,8):
+(5,7): EMPTY (5,8): EMPTY (5,9): OUT 
+(6,7): EMPTY (6,8): SELF (6,9): OUT 
+(7,7): EMPTY (7,8): EMPTY (7,9): OUT 
+Robot LB01 fires out of bounds.
+Robot BR01 (GenericRobot) looks at (9,8):
+(8,7): EMPTY (8,8): EMPTY (8,9): OUT 
+(9,7): EMPTY (9,8): SELF (9,9): OUT 
+(10,7): OUT (10,8): OUT (10,9): OUT 
+Robot BR01 fires out of bounds.
+Turn 90:
+       0    1    2    3    4    5    6    7    8
+    +----+----+----+----+----+----+----+----+----+
+  0 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  1 |    |    |    |    |    |    |    |    |BR02|
+    +----+----+----+----+----+----+----+----+----+
+  2 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  3 |    |    |    |    |    |    |    |    |LB02|
+    +----+----+----+----+----+----+----+----+----+
+  4 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  5 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  6 |    |    |    |    |    |    |    |    |LB01|
+    +----+----+----+----+----+----+----+----+----+
+  7 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  8 |    |    |    |    |    |    |    |    |    |
+    +----+----+----+----+----+----+----+----+----+
+  9 |    |    |    |    |    |    |    |    |BR01|
     +----+----+----+----+----+----+----+----+----+
