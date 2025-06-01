@@ -1,10 +1,10 @@
 M by N: 10 9 
 turns: 70
 robots: 7
-RoboCop RC01_Star random random
-Terminator T01_Alpha 3 5
-TerminatorRoboCop TR01_Gamma 6 8
-BlueThunder BT01_Beta 5 3
-Madbot MB01_Kidd 1 1
-RoboTank RT01_Jet 0 8
-UltimateRobot UR01_Delta 1 4
+STAR S random random
+ALPHA A 3 5
+GAMMA G 6 8
+BETA B 5 3
+KID K 1 1
+JET J 0 8
+DELTA D 1 4

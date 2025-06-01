@@ -1,11 +1,11 @@
 M by N: 10 15
 turns: 300
 robots: 8
-RoboCop RC01_Star 3 3
-RoboCop RC02_Star 4 4
-RoboCop RC03_Star 0 9
-RoboCop RC04_Star 5 1
-RoboCop RC03_Star 6 0
-RoboCop RC04_Star 6 1
-Terminator T01_Alpha 5 0
-Terminator T02_Alpha 4 2
+RSTAR01 RS01 3 3
+RSTAR02 RS02 4 4
+RSTAR03 RS03 0 9
+RSTAR04 RS04 5 1
+RSTAR05 RS03 6 0
+RSTAR06 RS04 6 1
+TALPHA01 T01 5 0
+TALPHA02 T02 4 2
